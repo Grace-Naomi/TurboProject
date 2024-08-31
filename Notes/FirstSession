@@ -1,0 +1,69 @@
+Requirements:
+
+Java:
+Maven:
+IntelliJ:
+JAVA_HOME - Setup
+
+
+Core:
+- OOPS
+- Strings
+- Exception
+- Collections
+
+OOPS: Object Oriented Programing System
+
+Classes
+Methods
+Variables
+Static
+Why static for main()
+How to create an object
+Calling uisng object/ without object
+_______________________________________________________________________________________________________
+
+morning
+
+Static method don't need an object
+main method is an engine to start the program
+void returns nothing
+
+object creation
+
+ClassName objectName=new ClassName();
+
+
+
+evening
+OOPS Principles
+
+Inheritance
+
+inheritance
+
+child acquiring the properties of the parent
+Resusable
+
+polymorphism
+
+-multiple same forms
+twins in same class how we will identify in a same class, but their property will be different
+
+two types
+method overloading
+2 methods in same class
+ parent having same method n child is also having same method
+method overidding
+
+_______________________________________________________________________________________
+
+
+ execute from cmd : newman run QAGroceryStore.postman_collection.json
+ Download Nodejs and install
+ then -> npm install newman
+ npm install -g newman-reporter-htmlextra
+ full cmd to generate report:
+newman run QAGroceryStore.postman_collection.json -r htmlextra --reporter-htmlextra-darkTheme --reporter-htmlextra-logs --reporter-htmlextra-title "API Result"
+
+
